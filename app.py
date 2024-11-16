@@ -3,7 +3,7 @@ import google.generativeai as genai
 import re
 
 # Configure Google AI API
-genai.configure(api_key="AIzaSyDz_ranA__pW0adYJBdFPa6nQHjwIfmBQs")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-pro')
 
 def review_code(code):
